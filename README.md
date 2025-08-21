@@ -1,3 +1,4 @@
+
 # PECP-MCP
 
 A Model Context Protocol (MCP) server implementation in Node.js/TypeScript for the "PECP" use case. This project provides a simple, extensible server with helper utilities, designed for integration with MCP-compatible clients and workflows.
@@ -46,7 +47,12 @@ npm run build
 ```
 The compiled files will be output to the `build/` directory.
 
-### Usage
+
+## Add this config in your claude_desktop_config.json
+
+![Project Banner](static/image.png)
+
+## Usage
 You can run the server (or scripts) using Node.js:
 ```sh
 node build/index.js
